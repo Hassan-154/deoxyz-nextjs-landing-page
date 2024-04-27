@@ -19,6 +19,19 @@ const config: Config = {
       },
       textColor: {
         'dullWhite': '#9e9e9d', 
+        'surface-white': 'var(--surface-surface-white, #FFF)',
+      },
+      boxShadow: {
+        'dotLine': '0px 3px 4px 0px rgba(142, 142, 142, 0.25) inset, 0px 0px 0px 1px rgba(44, 64, 94, 0.06), 0px 1px 1px 0px rgba(44, 64, 94, 0.04), 0px 2px 4px 0px rgba(44, 64, 94, 0.08)'
+      },
+      borderStyle: {
+        'solid': 'solid',
+      },
+      borderColor: {
+        'dotLine': 'rgba(255, 255, 255, 0.20)',
+      },
+      fontSize: {
+        '14': '14px',
       },
     },
   },
