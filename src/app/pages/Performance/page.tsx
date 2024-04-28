@@ -19,7 +19,7 @@ function page() {
             <div className="col-span-2 bg-gray border border-card rounded-card">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 1</h3>
-                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handle.. .</p>
+                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
               </div>
               <div className=''>
                 <Lottie
@@ -33,7 +33,7 @@ function page() {
             <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 2</h3>
-                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handle.. .</p>
+                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
               </div>
               <div className=''>
                 <Lottie
@@ -47,7 +47,7 @@ function page() {
             <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 3</h3>
-                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handle.. .</p>
+                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
               </div>
               <div className=''>
                 <Lottie
@@ -61,7 +61,7 @@ function page() {
             <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state4</h3>
-                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handle.. .</p>
+                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
               </div>
               <div className=''>
                 <Lottie
@@ -75,7 +75,7 @@ function page() {
             <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 5</h3>
-                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handle.. .</p>
+                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
               </div>
               <div className=''>
                 <Lottie
