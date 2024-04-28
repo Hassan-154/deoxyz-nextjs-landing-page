@@ -9,14 +9,15 @@ import TopDotLine from '@/app/components/topDotLine';
 
 export default function Page() {
   return (
-    <div className='relative h-screen'>
+    <div className='relative h-[140vh]'>
       <div className='lottie'>
         <Lottie
           loop
           animationData={animation}
           play
           className='lottie'
-          style={{ minHeight: '100vh !important', }}
+          style={{ height: '140vh', width: '100%',  objectFit: 'cover' }}
+          rendererSettings={{ preserveAspectRatio: 'xMidYMid slice' }}
         />
       </div>
       {/* content */}

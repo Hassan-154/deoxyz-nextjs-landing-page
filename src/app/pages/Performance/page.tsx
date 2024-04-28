@@ -14,7 +14,8 @@ function page() {
           animationData={animation}
           play
           className='lottie'
-          style={{ minHeight: '100vh !important', }}
+          style={{ height: '100vh', width: '100%',  objectFit: 'cover' }}
+          rendererSettings={{ preserveAspectRatio: 'xMidYMid slice' }}
         />
     </div>
   )

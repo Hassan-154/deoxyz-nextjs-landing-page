@@ -12,8 +12,11 @@
 body{
   background: #040201;
 }
-.future{
-  clip: rect(0px, 200px, 100px, 0px)
+.loop{
+  fill: rgba(255, 255, 255, 0.67);
+
+opacity: 0.3;
+filter: blur(600px);
 }
 
 
