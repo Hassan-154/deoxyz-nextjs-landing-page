@@ -22,13 +22,12 @@ function page() {
                         <h1 className='text-[38px] leading-[40px] sm:text-[42px] font-medium sm:leading-[45px]'>How Deoxys Operates the Future of Starknet</h1>
                         <p className='text-dullWhite'>Lorem ipsum dolor sit amet consectetur. Laoreet magna fermentum ut mi bibendum euismod varius quis odio. Vitae vestibulum adipi</p>
                     </div>
-
                     {/* bento */}
                     <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4 text-left pt-14">
                         <div className="col-span-2 lg:col-span-3 bg-gray border border-card rounded-card">
                             <div className='max-w-[510px] p-[20px]'>
                                 <h3 className='text-17 font-medium'>Fully Updated</h3>
-                                <p className='text-dullWhite text-14 pt-1'>Deoxys syncs seamlessly with Starknet's latest, offering full compatibility with version 0.13.0.</p>
+                                <p className='text-dullWhite text-14 pt-1'>Deoxys syncs seamlessly with Starknet&apos;s latest, offering full compatibility with version 0.13.0.</p>
                             </div>
                             <div className='relative'>
                                 <div className='max-w-[550px] max-h-[400px] mx-auto overflow-hidden'><Image className='' src={fullyUpdated} alt="lines" /></div>
@@ -40,7 +39,7 @@ function page() {
                         <div className="col-span-2 bg-gray border border-card rounded-card">
                             <div className='max-w-[510px] p-[20px]'>
                                 <h3 className='text-17 font-medium'>RPC Complete</h3>
-                                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet's JSON-RPC specs, Deoxys efficiently handles all 27 available methods</p>
+                                <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handles all 27 available methods</p>
                             </div>
                             <div className='relative'>
                                 <div className='max-w-[550px] max-h-[400px] mx-auto overflow-hidden'><Image className='lg:h-[400px]' src={RCP} alt="lines" /></div>
@@ -53,7 +52,7 @@ function page() {
                          <div className="col-span-2 bg-gray border border-card rounded-card">
                             <div className='max-w-[510px] p-[20px]'>
                                 <h3 className='text-17 font-medium'>L1 Verified</h3>
-                                <p className='text-dullWhite text-14 pt-1'>Deoxys' state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
+                                <p className='text-dullWhite text-14 pt-1'>Deoxys&apos; state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
                             </div>
                             <div className='relative'>
                                 <div className='max-w-[550px] max-h-[400px] mx-auto overflow-hidden'><Image className='sm:h-[400px]' src={Numberdeco} alt="lines" /></div>
@@ -66,7 +65,7 @@ function page() {
                         <div className="col-span-2 lg:col-span-3 bg-gray border border-card rounded-card">
                             <div className='max-w-[510px] p-[20px]'>
                                 <h3 className='text-17 font-medium'>P2P Supported</h3>
-                                <p className='text-dullWhite text-14 pt-1'>Deoxys' state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
+                                <p className='text-dullWhite text-14 pt-1'>Deoxys&apos; state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
                             </div>
                             <div className='relative'>
                                 <div><Image src={World} className='h-[400px] w-[100%] object-cover -pl-6' alt="world" /></div>
@@ -87,4 +86,4 @@ function page() {
     )
 }
 
-export default page
+export default page;
