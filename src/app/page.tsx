@@ -7,6 +7,7 @@ function page() {
     <>
     <Home/>
     <Future/>
+    <Performance/>
     </>
   )
 }

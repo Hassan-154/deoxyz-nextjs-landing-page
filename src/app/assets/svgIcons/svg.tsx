@@ -1,4 +1,4 @@
-export function FutureGradientLeft() {
+export function GradientLeft() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="1218" height="1883" viewBox="0 0 1218 1883" fill="none">
             <g opacity="0.2" filter="url(#filter0_f_4183_696)">
@@ -15,7 +15,7 @@ export function FutureGradientLeft() {
     )
 }
 
-export function FutureGradientRight() {
+export function GradientRight() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="1824" height="1883" viewBox="0 0 1824 1883" fill="none">
             <g opacity="0.3" filter="url(#filter0_f_4447_2099)">

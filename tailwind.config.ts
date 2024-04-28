@@ -16,6 +16,7 @@ const config: Config = {
       backgroundColor: { 
         'red': '#aa1010', 
         'offWhite': '#efefef', 
+        'gray': '#171717'
       },
       textColor: {
         'dullWhite': '#9e9e9d', 
@@ -29,9 +30,17 @@ const config: Config = {
       },
       borderColor: {
         'dotLine': 'rgba(255, 255, 255, 0.20)',
+        'card': 'rgba(255, 255, 255, 0.04)'
       },
       fontSize: {
         '14': '14px',
+        '15': '15px',
+        '16': '16px',
+        '17': '17px',
+        '18': '18px',
+      },
+      borderRadius: {
+        'card': '8px',
       },
     },
   },

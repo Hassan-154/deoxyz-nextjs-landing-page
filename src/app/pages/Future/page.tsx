@@ -4,8 +4,7 @@ import Image from 'next/image';
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import animation from "@/app/lottie/future/future.json";
-import gradient from '@/app/assets/images/Rectangle 34631737.png';
-import { FutureGradientLeft,FutureGradientRight } from '@/app/assets/svgIcons/svg';
+import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
 function page() {
     return (
         <div className='relative text-center px-3 sm:px-0 py-10 overflow-hidden'>
@@ -25,7 +24,7 @@ function page() {
                         />
                     </div>
                     {/* bottom guide */}
-                    <div className='flex justify-between items-center max-w-[700px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000]'>
+                    <div className='flex justify-between items-center max-w-[700px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000] px-3 py-2'>
                         <div className='flex gap-3 items-center'>
                             <div className='bg-[#2EC596] h-3 w-14 rounded-sm'></div>
                             <p>State Update</p>
@@ -42,11 +41,11 @@ function page() {
                 </div>
             </div>
             {/* top gradient */}
-            <div className='w-full absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                <FutureGradientLeft />
+            <div className='w-full absolute -left-500px transform -translate-x-1/2 -translate-y-1/2'>
+                <GradientLeft />
             </div>
             <div className='w-full absolute top-0 right-0'>
-                <FutureGradientRight />
+                <GradientRight />
             </div>
         </div>
     )
