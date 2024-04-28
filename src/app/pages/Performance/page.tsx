@@ -3,15 +3,18 @@ import React from 'react'
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import EntireState from "@/app/lottie/performance/entire state new (1).json";
+import gradient from '@/app/assets/images/Rectangle 34631737.png';
 import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
+
+import Image from 'next/image';
 function page() {
   return (
-    <div className='relative text-center px-3 py-20'>
+    <div className='relative text-center px-3 py-10'>
       <div className='w-full'>
         <div className='max-w-[1200px] mx-auto'>
           <div className='flex flex-col gap-5 max-w-[550px] mx-auto'>
             <TopDotLine />
-            <h1 className='text-[38px] leading-[40px] sm:text-[42px] font-medium sm:leading-[45px]'>How Deoxys Operates the Future of Starknet</h1>
+            <h1 className='text-[38px] leading-[40px] sm:text-[42px] font-medium sm:leading-[45px]'>Unveiling Deoxys Powering the Future of Starknet</h1>
             <p className='text-dullWhite'>Lorem ipsum dolor sit amet consectetur. Laoreet magna fermentum ut mi bibendum euismod varius quis odio. Vitae vestibulum adipi</p>
           </div>
           {/* grid system */}
@@ -26,11 +29,11 @@ function page() {
                   loop
                   animationData={EntireState}
                   play
-                  style={{ height: '100%', width: '100%' }}
+                  style={{ height: '100%', width: '100%', }}
                 />
               </div>
             </div>
-            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
+            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card max-h-[340px]">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 2</h3>
                 <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
@@ -44,7 +47,7 @@ function page() {
                 />
               </div>
             </div>
-            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
+            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card max-h-[340px]">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 3</h3>
                 <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
@@ -58,7 +61,7 @@ function page() {
                 />
               </div>
             </div>
-            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
+            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card max-h-[340px]">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state4</h3>
                 <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
@@ -72,7 +75,7 @@ function page() {
                 />
               </div>
             </div>
-            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card">
+            <div className="col-span-2 sm:col-span-1 bg-gray border border-card rounded-card max-h-[340px]">
               <div className='max-w-[310px] p-[20px]'>
                 <h3 className='text-16'>Entire state 5</h3>
                 <p className='text-dullWhite text-14 pt-1'>With full support for Starknet&apos;s JSON-RPC specs, Deoxys efficiently handle.. .</p>
@@ -90,9 +93,9 @@ function page() {
         </div>
       </div>
       {/* top gradient */}
-      {/* <div className='w-full absolute -left-500px transform -translate-x-1/2 -translate-y-1/2'>
+      <div className="absolute -left-[200px] -top-[300px] w-full flex items-center justify-center">
         <GradientLeft />
-      </div> */}
+      </div>
     </div>
   )
 }

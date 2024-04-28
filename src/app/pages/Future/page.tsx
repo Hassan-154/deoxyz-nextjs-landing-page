@@ -1,14 +1,13 @@
 'use client'
 import React from 'react'
-import Image from 'next/image';
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import animation from "@/app/lottie/future/future.json";
 import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
 function page() {
     return (
-        <div className='relative text-center px-3 sm:px-0 py-10 overflow-hidden'>
-            <div className='w-full'>
+        <div className='relative text-center px-3 sm:px-0 py-20 sm:py-28 overflow-hidden'>
+            <div className=''>
                 <div className='max-w-[1200px] mx-auto'>
                     <div className='flex flex-col gap-5 max-w-[550px] mx-auto'>
                         <TopDotLine />
@@ -20,32 +19,29 @@ function page() {
                             loop
                             animationData={animation}
                             play
-                            className='lottie'
+                            style={{ height: '100%', width: '100%', }}
                         />
                     </div>
                     {/* bottom guide */}
-                    <div className='flex justify-between items-center max-w-[700px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000] px-3 py-2'>
+                    <div className='text-15 flex justify-between items-center max-w-[600px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000] px-3 py-2'>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#2EC596] h-3 w-14 rounded-sm'></div>
+                            <div className='bg-[#2EC596] h-2.5 w-12 rounded-sm'></div>
                             <p>State Update</p>
                         </div>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#B6383C] h-3 w-14 rounded-sm'></div>
+                            <div className='bg-[#B6383C] h-2.5 w-12 rounded-sm'></div>
                             <p>Commitment</p>
                         </div>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#C1791D] h-3 w-14 rounded-sm'></div>
+                            <div className='bg-[#C1791D] h-2.5 w-12 rounded-sm'></div>
                             <p>Block</p>
                         </div>
                     </div>
                 </div>
             </div>
             {/* top gradient */}
-            <div className='w-full absolute -left-500px transform -translate-x-1/2 -translate-y-1/2'>
+            <div className='absolute -left-[200px] -top-[100px] w-full flex items-center justify-center'>
                 <GradientLeft />
-            </div>
-            <div className='w-full absolute top-0 right-0'>
-                <GradientRight />
             </div>
         </div>
     )

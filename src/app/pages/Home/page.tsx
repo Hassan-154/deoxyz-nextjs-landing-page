@@ -10,7 +10,6 @@ import TopDotLine from '@/app/components/topDotLine';
 export default function Page() {
   return (
     <div className='relative h-[140vh]'>
-      <div className='lottie'>
         <Lottie
           loop
           animationData={animation}
@@ -19,12 +18,11 @@ export default function Page() {
           style={{ height: '140vh', width: '100%', objectFit: 'cover' }}
           rendererSettings={{ preserveAspectRatio: 'xMidYMid slice' }}
         />
-      </div>
       {/* content */}
       <div className='flex flex-col gap-5 absolute top-[33%] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center max-w-[550px] px-3 sm:px-0'>
         {/* dot & text */}
         <TopDotLine />
-        <h1 className='text-[50px] font-medium leading-[55px]'>Powring The <br></br> Future of StarKnet</h1>
+        <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px]'>Powring The <br></br> Future of StarKnet</h1>
         <p className='text-dullWhite text-16'>Lorem ipsum dolor sit amet consectetur. Laoreet magna fermentum ut mi bibendum euismod varius quis odio. Vitae vestibulum adipi</p>
         <div className='flex gap-4 justify-center'>
           <Button className='bg-red' text='Get Started' />

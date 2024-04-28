@@ -1,6 +1,6 @@
 export function GradientLeft() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="1218" height="1883" viewBox="0 0 1218 1883" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1018" height="1183" viewBox="0 0 1218 1883" fill="none">
             <g opacity="0.2" filter="url(#filter0_f_4183_696)">
                 <path d="M505.129 1423.86C570.011 1494.56 678.968 1501.89 752.731 1440.51C831.776 1374.73 839.695 1256.2 770.104 1180.49L106.316 458.381C40.2766 386.54 -71.0617 380.626 -144.34 445.067C-219.891 511.507 -226.078 627.064 -158.053 701.192L505.129 1423.86Z" fill="white" fill-opacity="0.666667" />
             </g>
