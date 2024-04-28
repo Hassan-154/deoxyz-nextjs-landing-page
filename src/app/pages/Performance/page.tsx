@@ -3,10 +3,8 @@ import React from 'react'
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import EntireState from "@/app/lottie/performance/entire state new (1).json";
-import gradient from '@/app/assets/images/Rectangle 34631737.png';
-import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
+import { GradientLeft} from '@/app/assets/svgIcons/svg';
 
-import Image from 'next/image';
 function page() {
   return (
     <div className='relative text-center px-3 py-10'>

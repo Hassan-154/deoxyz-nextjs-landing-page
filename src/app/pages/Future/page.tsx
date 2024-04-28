@@ -4,6 +4,7 @@ import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import animation from "@/app/lottie/future/future.json";
 import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
+
 function page() {
     return (
         <div className='relative text-center px-3 sm:px-0 py-20 sm:py-28 overflow-hidden'>

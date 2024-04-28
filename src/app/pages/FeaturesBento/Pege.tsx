@@ -10,7 +10,7 @@ import L1verify from '@/app/assets/images/LIverify.svg'
 import Numberdeco from '@/app/assets/images/numberdeco.svg'
 import loading from '@/app/assets/images/loading.svg'
 import World from '@/app/assets/images/worlddeco.svg'
-import { FeaturesBentoGradient, GradientRight } from '@/app/assets/svgIcons/svg';
+import { FeaturesBentoGradient } from '@/app/assets/svgIcons/svg';
 
 function page() {
     return (
