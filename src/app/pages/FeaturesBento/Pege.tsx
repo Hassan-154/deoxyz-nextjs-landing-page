@@ -10,11 +10,11 @@ import L1verify from '@/app/assets/images/LIverify.svg'
 import Numberdeco from '@/app/assets/images/numberdeco.svg'
 import loading from '@/app/assets/images/loading.svg'
 import World from '@/app/assets/images/worlddeco.svg'
+import { FeaturesBentoGradient, GradientRight } from '@/app/assets/svgIcons/svg';
 
-import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
 function page() {
     return (
-        <div className='relative text-center px-3 py-20 sm:py-28 overflow-hidden'>
+        <div className='relative text-center px-3 py-20 overflow-hidden'>
             <div className=''>
                 <div className='max-w-[1200px] mx-auto'>
                     <div className='flex flex-col gap-5 max-w-[550px] mx-auto'>
@@ -49,7 +49,7 @@ function page() {
                             </div>
                         </div>
 
-                         <div className="col-span-2 bg-gray border border-card rounded-card">
+                        <div className="col-span-2 bg-gray border border-card rounded-card">
                             <div className='max-w-[510px] p-[20px]'>
                                 <h3 className='text-17 font-medium'>L1 Verified</h3>
                                 <p className='text-dullWhite text-14 pt-1'>Deoxys&apos; state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
@@ -67,8 +67,8 @@ function page() {
                                 <h3 className='text-17 font-medium'>P2P Supported</h3>
                                 <p className='text-dullWhite text-14 pt-1'>Deoxys&apos; state undergoes continuous Ethereum-based verification, ensuring data integrity within the network.</p>
                             </div>
-                            <div className='relative'>
-                                <div><Image src={World} className='h-[400px] w-[100%] object-cover -pl-6' alt="world" /></div>
+                            <div className='relative lg:mr-10'>
+                                <div className=''><Image src={World} className='h-[400px] w-[100%] object-cover' alt="world" /></div>
                                 <div className='w-full flex items-center justify-center absolute top-0 left-0 bottom-0 right-0'>
                                     <div className='max-w-[500px] h-auto'> <Image src={loading} alt="loading" /></div>
                                 </div>
@@ -80,7 +80,7 @@ function page() {
             </div>
             {/* top gradient */}
             <div className='absolute -left-[200px] -top-[100px] w-full flex items-center justify-center'>
-                <GradientLeft />
+                <FeaturesBentoGradient />
             </div>
         </div>
     )
