@@ -8,7 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -32,14 +31,15 @@ const config: Config = {
       backgroundColor: { 
         'red': '#aa1010', 
         'offWhite': '#efefef', 
-        'gray': '#171717'
+        'gray': '#171717',
       },
       textColor: {
         'dullWhite': '#9e9e9d', 
         'surface-white': 'var(--surface-surface-white, #FFF)',
       },
       boxShadow: {
-        'dotLine': '0px 3px 4px 0px rgba(142, 142, 142, 0.25) inset, 0px 0px 0px 1px rgba(44, 64, 94, 0.06), 0px 1px 1px 0px rgba(44, 64, 94, 0.04), 0px 2px 4px 0px rgba(44, 64, 94, 0.08)'
+        'dotLine': '0px 3px 4px 0px rgba(142, 142, 142, 0.25) inset, 0px 0px 0px 1px rgba(44, 64, 94, 0.06), 0px 1px 1px 0px rgba(44, 64, 94, 0.04), 0px 2px 4px 0px rgba(44, 64, 94, 0.08)',
+        'bottomMenu': '0px 4px 20px 0px rgba(0, 0, 0, 0.10);'
       },
       borderStyle: {
         'solid': 'solid',
@@ -49,6 +49,7 @@ const config: Config = {
         'card': 'rgba(255, 255, 255, 0.04)'
       },
       fontSize: {
+        '13': '13.5px',
         '14': '14px',
         '15': '15px',
         '16': '16px',

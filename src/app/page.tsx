@@ -7,6 +7,7 @@ import Discover from '@/app/pages/Discover/page'
 import Launch from '@/app/pages/Launch/page'
 import SliderLogo from '@/app/components/logoSlider'
 import FAQ from '@/app/pages/FAQ/page'
+import Footer from '@/app/pages/Footer/page'
 
 function page() {
   return (
@@ -17,6 +18,7 @@ function page() {
       <FeaturesBento />
       <Discover />
       <FAQ />
+      <Footer/>
     </>
   )
 }

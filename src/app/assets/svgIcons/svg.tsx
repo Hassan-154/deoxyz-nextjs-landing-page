@@ -48,3 +48,21 @@ export function FeaturesBentoGradient() {
         </svg>
     )
 }
+
+
+export function FooterGradient() {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="4000" height="1500" viewBox="0 0 1824 1883" fill="none">
+            <g opacity="0.3" filter="url(#filter0_f_4447_2099)">
+                <path d="M1111.13 1423.86C1176.01 1494.56 1284.97 1501.89 1358.73 1440.51C1437.78 1374.73 1445.7 1256.2 1376.1 1180.49L712.316 458.381C646.277 386.539 534.938 380.625 461.66 445.066C386.109 511.507 379.922 627.064 447.947 701.191L1111.13 1423.86Z" fill="white" fill-opacity="0.666667" />
+            </g>
+            <defs>
+                <filter id="filter0_f_4447_2099" x="0.705078" y="0.363281" width="1822.85" height="1881.76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_4447_2099" />
+                </filter>
+            </defs>
+        </svg>
+    )
+}
