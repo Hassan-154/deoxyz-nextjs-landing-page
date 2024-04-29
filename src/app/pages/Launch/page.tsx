@@ -25,13 +25,13 @@ function Page() {
                     {/* tabs */}
                     <Tabs defaultValue={activeTab} className="tabs cursor-pointer mt-14">
                         <TabsList>
-                            <TabsTrigger value="account" onClick={() => setActiveTab("Low Level")} className="z-20">Low Level</TabsTrigger>
-                            <TabsTrigger value="password" onClick={() => setActiveTab("Mid Level")} className="z-20">Mid Level</TabsTrigger>
-                            <TabsTrigger value="security" onClick={() => setActiveTab("High Levely")} className="z-20">High Level</TabsTrigger>
+                            <TabsTrigger value="Low Level" onClick={() => setActiveTab("Low Level")} className="z-20">Low Level</TabsTrigger>
+                            <TabsTrigger value="Mid Level" onClick={() => setActiveTab("Mid Level")} className="z-20">Mid Level</TabsTrigger>
+                            <TabsTrigger value="High Level" onClick={() => setActiveTab("High Level")} className="z-20">High Level</TabsTrigger>
                         </TabsList>
-                        <TabsContent value="account" className="z-99"><LowLevel /></TabsContent>
-                        <TabsContent value="password" className="z-10">Change your password here.</TabsContent>
-                        <TabsContent value="security" className="z-10">Manage your security settings here.</TabsContent>
+                        <TabsContent value="Low Level" className="z-99"><LowLevel /></TabsContent>
+                        <TabsContent value="Mid Level" className="z-10">Change your password here.</TabsContent>
+                        <TabsContent value="High Level" className="z-10">Manage your security settings here.</TabsContent>
                     </Tabs>
                 </div>
             </div>

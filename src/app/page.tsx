@@ -13,14 +13,14 @@ import Tabs from '@/app/pages/Launch/page'
 function page() {
   return (
     <>
-      {/* <Home />
+      <Home />
       <Future />
       <Performance />
+      <Tabs/>
       <FeaturesBento />
       <Discover />
       <FAQ />
-      <Footer/> */}
-      <Tabs/>
+      <Footer/>
     </>
   )
 }
