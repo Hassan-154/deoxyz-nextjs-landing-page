@@ -1,8 +1,6 @@
 'use client'
 import React from 'react'
 import TopDotLine from '@/app/components/topDotLine';
-import Image from 'next/image';
-import footer from '@/app/assets/images/footer.svg';
 import Button from '@/app/components/button';
 import { FooterGradient } from '@/app/assets/svgIcons/svg';
 
