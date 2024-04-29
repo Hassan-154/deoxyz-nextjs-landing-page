@@ -7,7 +7,7 @@ import { FooterGradient } from '@/app/assets/svgIcons/svg';
 
 function page() {
     return (
-        <div className='text-center px-3 py-20 overflow-hidden footer max-h-[70vh]'>
+        <div className='text-center px-3 py-20 overflow-hidden footer max-h-[75vh]'>
             <div className='flex flex-col gap-10 justify-between max-w-[1200px] mx-auto'>
             <div className='w-full flex-col items-center justify-center'>
                 <div className='flex flex-col gap-5 max-w-[600px] mx-auto'>
