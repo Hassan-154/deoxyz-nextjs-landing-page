@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: FC<ButtonProps> = ({ text, onClick, className }) => {
   return (
-    <button onClick={onClick} className={`font-medium px-6 py-2.5 rounded-lg border-2 border-[#000] ${className}`}>
+    <button onClick={onClick} className={`cursor-pointer font-medium px-6 py-2.5 rounded-lg border-2 border-[#000] shadow-button ${className}`}>
       {text}
     </button>
   );
