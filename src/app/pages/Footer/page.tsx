@@ -13,7 +13,7 @@ function page() {
                 <div className='flex flex-col gap-5 max-w-[600px] mx-auto'>
                     <TopDotLine />
                     <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px]'>Ready to Experience Deoxys?</h1>
-                    <p className='text-dullWhite'>Contribute to Deoxys' development on GitHub and be part of the future!</p>
+                    <p className='text-dullWhite'>Contribute to Deoxys&apos; development on GitHub and be part of the future!</p>
                     <div className='flex gap-4 justify-center'>
                         <Button className='bg-[#B10000] bg-gradient-to-b from-white/30 to-[#1B1A1A]/0' text='Get Started' />
                         <Button className='bg-offWhite text-black' text='Learn More' />
