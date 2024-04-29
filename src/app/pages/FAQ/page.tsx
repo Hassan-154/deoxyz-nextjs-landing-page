@@ -8,10 +8,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-
 import Data from '@/app/utility/data'
-
-
 
 function page() {
     return (

@@ -41,7 +41,7 @@ function page() {
                 </div>
             </div>
             {/* top gradient */}
-            <div className='absolute -left-[200px] -top-[100px] w-full flex items-center justify-center'>
+            <div className='absolute -left-[250px] -top-[100px] w-full flex items-center justify-center'>
                 <GradientLeft />
             </div>
         </div>

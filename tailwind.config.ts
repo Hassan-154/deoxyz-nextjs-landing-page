@@ -32,10 +32,15 @@ const config: Config = {
         'red': '#aa1010', 
         'offWhite': '#efefef', 
         'gray': '#171717',
+        'light-gray': 'rgba(255, 255, 255, 0.04)',
+        'yellow': '#FBA91D',
       },
       textColor: {
         'dullWhite': '#9e9e9d', 
         'surface-white': 'var(--surface-surface-white, #FFF)',
+        'light-gray': 'rgba(255, 255, 255, 0.04)',
+        'yellow': '#FBA91D',
+        'green': '#72EC73'
       },
       boxShadow: {
         'dotLine': '0px 3px 4px 0px rgba(142, 142, 142, 0.25) inset, 0px 0px 0px 1px rgba(44, 64, 94, 0.06), 0px 1px 1px 0px rgba(44, 64, 94, 0.04), 0px 2px 4px 0px rgba(44, 64, 94, 0.08)',
@@ -46,7 +51,9 @@ const config: Config = {
       },
       borderColor: {
         'dotLine': 'rgba(255, 255, 255, 0.20)',
-        'card': 'rgba(255, 255, 255, 0.04)'
+        'card': 'rgba(255, 255, 255, 0.04)',
+        'yellow': '#FBA91D',
+        'green': '#72EC73'
       },
       fontSize: {
         '13': '13.5px',

@@ -8,17 +8,19 @@ import Launch from '@/app/pages/Launch/page'
 import SliderLogo from '@/app/components/logoSlider'
 import FAQ from '@/app/pages/FAQ/page'
 import Footer from '@/app/pages/Footer/page'
+import Tabs from '@/app/pages/Launch/page'
 
 function page() {
   return (
     <>
-      <Home />
+      {/* <Home />
       <Future />
       <Performance />
       <FeaturesBento />
       <Discover />
       <FAQ />
-      <Footer/>
+      <Footer/> */}
+      <Tabs/>
     </>
   )
 }

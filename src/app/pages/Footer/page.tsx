@@ -20,7 +20,7 @@ function page() {
                     </div>
                 </div>
             </div>
-            <div className='shadow-bottomMenu rounded-lg py-3 text-13 footer-nav font-normal px-6 bg-rgb(32, 32, 32, 0.90) border-2 border-dotLine w-full flex flex-col ga lg:gap-0 md:flex-row justify-between'>
+            <div className='footer-nav shadow-bottomMenu rounded-lg py-3 text-13 footer-nav font-normal px-6 bg-[#0e0e0e] border-2 border-dotLine w-full flex flex-col ga lg:gap-0 md:flex-row justify-between'>
                 <div className='flex gap-4'>
                     <a>© 2024 DEOXYS| All Rights Reserved</a>
                     <a className='text-[#9a9a9a]'> | </a>

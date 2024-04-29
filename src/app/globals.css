@@ -1,26 +1,54 @@
   @tailwind components;
   @tailwind utilities;
   @tailwind base;
-*{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  color: #ffffff;
-}
-body{
-  background: #040201;
-}
-.footer{
-  background: 
-    url('./assets/images/footer.svg') no-repeat center / cover;
+
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+
+  body {
+    background: #040201;
+  }
+
+  .footer {
+    background:
+      url('./assets/images/footer.svg') no-repeat center / cover;
     height: 100%;
   }
-.footer-nav {
-  backdrop-filter: blur(2px);
-}
 
+  .dark\:bg-slate-800 {
+    background: linear-gradient(180deg, ), linear-gradient(180deg, ), #000 !important;
+  }
 
+  .dark\:data-\[state\=active\]\:bg-slate-950[data-state=active] {
+    background-color: white !important;
+    border-radius: 5px;
+    color: black !important;
+  }
 
-  
+  .lunch-number-box {
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 0px -3px 0px 0px #000 inset, 0px 4px 1px 0px rgba(255, 255, 255, 0.08) inset, 0px 0px 0px 1.506px #000, 0px 0px 7.529px 6.023px rgba(247, 61, 45, 0.07), 0px 6.023px 6.023px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .lunch-button {
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: linear-gradient(3deg, ), linear-gradient(0deg, );
+    box-shadow: 0px 0px 9px 4px rgba(241, 102, 58, 0.10), 0px 0px 0px 1px #000, 0px 0px 5px 4px rgba(247, 61, 45, 0.07), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+  }
+
+  .installCardOptions {
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: linear-gradient(3deg, ), linear-gradient(0deg, );
+    box-shadow: 0px 0px 0px 1px #000, 0px 0px 5px 4px rgba(247, 61, 45, 0.07), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 0px 0px rgba(255, 255, 255, 0.08) inset;
+  }
+
+  .mainHeaderButton {
+    background: linear-gradient(180deg, ), #FFF;
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.21) inset, 0px 0px 5px 4px rgba(247, 61, 45, 0.07), 0px 1px 3px 0px rgba(143, 143, 143, 0.20), 0px 6px 13px 0px rgba(0, 0, 0, 0.04), 0px 53px 32px 0px rgba(0, 0, 0, 0.02), 0px 1px 3px 0px rgba(16, 24, 40, 0.10), 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 2.4px 0px 0px rgba(255, 255, 255, 0.14) inset;
+  }
