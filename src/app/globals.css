@@ -18,25 +18,26 @@
 
   .scrollContainer {
     display: flex;
-    overflow-x: hidden; 
-    white-space: nowrap; 
+    overflow-x: hidden;
+    white-space: nowrap;
     animation: scroll 50s linear infinite;
   }
-  
+
   @keyframes scroll {
     0% {
       transform: translateX(0%);
     }
+
     100% {
       transform: translateX(-30%);
     }
   }
-  
 
   .footer {
     background:
-      url('./assets/images/footer.svg') no-repeat center / cover;
-    height: 100%;
+      url('./assets/images/footer.svg') no-repeat center / cover,
+      linear-gradient(2deg, rgba(0, 0, 0, 0.10) 50.08%, rgba(32, 32, 32, 0.10) 98.23%),
+      linear-gradient(358deg, #373737 1.55%, #000 98.06%);
   }
 
   .dark\:bg-slate-800 {

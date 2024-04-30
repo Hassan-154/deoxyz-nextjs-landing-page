@@ -7,36 +7,36 @@ import { FooterGradient } from '@/app/assets/svgIcons/svg';
 
 function page() {
     return (
-        <div className='text-center px-3 py-20 overflow-hidden footer max-h-[75vh]'>
-            <div className='flex flex-col gap-10 justify-between max-w-[1200px] mx-auto'>
-            <div className='w-full flex-col items-center justify-center'>
-                <div className='flex flex-col gap-5 max-w-[600px] mx-auto'>
-                    <TopDotLine />
-                    <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px]'>Ready to Experience Deoxys?</h1>
-                    <p className='text-dullWhite'>Contribute to Deoxys&apos; development on GitHub and be part of the future!</p>
-                    <div className='flex gap-4 justify-center'>
-                        <Button className='bg-[#B10000] bg-gradient-to-b from-white/30 to-[#1B1A1A]/0 px-5' text='Get Started' />
-                        <Button className='bg-offWhite text-black px-5' text='Learn More' />
+        <div className='text-center px-3 mt-24 overflow-hidden footer'>
+            <div className='flex flex-col justify-between max-w-[1400px] h-[70vh] mx-auto'>
+                <div className='w-full flex-col items-center justify-center'>
+                    <div className='flex flex-col gap-5 max-w-[600px] mx-auto'>
+                        <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px] pt-5'>Ready to Experience Deoxys?</h1>
+                        <p className='text-dullWhite'>Contribute to Deoxys&apos; development on GitHub and be part of the future!</p>
+                        <div className='flex gap-4 justify-center'>
+                            <Button className='bg-[#B10000] bg-gradient-to-b from-white/30 to-[#1B1A1A]/0 px-5' text='Get Started' />
+                            <Button className='bg-offWhite text-black px-5' text='Learn More' />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='footer-nav shadow-bottomMenu rounded-lg py-3 text-13 footer-nav font-normal px-6 bg-[#0e0e0e] border-2 border-dotLine w-full flex flex-col ga lg:gap-0 md:flex-row justify-between'>
-                <div className='flex gap-4'>
-                    <a>© 2024 DEOXYS| All Rights Reserved</a>
-                    <a className='text-[#9a9a9a]'> | </a>
-                    <a className='text-[#9a9a9a]'>Powered by Kazar Labs</a>
+
+                <div style={{ background: 'rgba(32, 32, 32, 0.90)' }} className='font-normal mb-4 flex flex-col text-left sm:flex-row gap-5 sm:gap-0 sm:justify-between border shadow-[0px_4px_20px_0px_rgba(0,0,0,0.10)] backdrop-blur-[2px] px-3 py-4 rounded-md border-solid border-[rgba(255,255,255,0.20)]'>
+                    <div className='flex flex-col lg:flex-row gap-4'>
+                        <a>© 2024 DEOXYS| All Rights Reserved</a>
+                        <div className='flex gap-4'>
+                            <a className='text-[#9a9a9a]'> | </a>
+                            <a className='text-[#9a9a9a]'>Powered by Kazar Labs</a>
+                        </div>
+                    </div>
+                    <div className='flex flex-col sm:flex-row gap-5 sm:gap-4'>
+                        <a>Privacy Policy</a>
+                        <a>Terms and Conditions</a>
+                        <a>Cookie Settings</a>
+                    </div>
                 </div>
-                <div className='flex gap-4'>
-                    <a>Privacy Policy</a>
-                    <a>Terms and Conditions</a>
-                    <a>Cookie Settings</a>
-                </div>
+
+
             </div>
-            </div>
-            {/* top gradient */}
-            {/* <div className='absolute -top-[50px] w-full flex items-center justify-center'>
-                <FooterGradient />
-            </div> */}
         </div>
     )
 }

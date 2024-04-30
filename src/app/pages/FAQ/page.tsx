@@ -34,7 +34,7 @@ function page() {
                 </div>
             </div>
             {/* top gradient */}
-            <div className='z-0 absolute -left-[200px] -top-[400px] w-full flex items-center justify-center'>
+            <div className='z-0 absolute -left-[200px] -top-[800px] w-full flex items-center justify-center'>
                 <FeaturesBentoGradient />
             </div>
         </div>
