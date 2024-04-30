@@ -13,6 +13,7 @@
 
   body {
     background: #040201;
+    overflow-x: hidden;
   }
 
   .scrollContainer {
