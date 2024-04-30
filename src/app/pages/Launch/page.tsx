@@ -6,16 +6,14 @@ import HighLevel from '@/app/components/highLevel'
 import LowLevel from '@/app/components/lowLevel'
 import MidLevel from '@/app/components/midLevel'
 import { LaunchLowLevelGradient } from '@/app/assets/svgIcons/svg';
+import Stars from '@/app/assets/images/stars.svg';
+import Image from 'next/image';
 
 
 function Page() {
     const [activeTab, setActiveTab] = useState<string>("High Level");
-
-    console.log(activeTab, 'active tab.. .')
-
     return (
         <div className='relative text-center px-3 py-20 overflow-hidden'>
-
             <div className=''>
                 <div className='z-10'>
                     <div className='flex flex-col gap-5 max-w-[600px] mx-auto'>
@@ -37,9 +35,16 @@ function Page() {
                 </div>
             </div>
             {/* top gradient */}
-            <div className='z-0 absolute -left-[200px] -top-[350px] w-full flex items-center justify-center'>
+            <div className='z-0 absolute -left-[250px] -top-[350px] w-full flex items-center justify-center'>
                 <LaunchLowLevelGradient />
             </div>
+            {
+                (activeTab === 'Low Level' || activeTab === 'Mid Level') && (
+                    <div className='z-0 absolute -left-[550px] -top-[150px] w-full flex items-center justify-center'>
+                        <Image src={Stars} alt="stars" />
+                    </div>
+                )
+            }
         </div>
     );
 }
