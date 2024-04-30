@@ -1,9 +1,11 @@
 'use client'
 import React from 'react'
+import Image from 'next/image';
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
 import animation from "@/app/lottie/future/future.json";
-import { GradientLeft, GradientRight } from '@/app/assets/svgIcons/svg';
+import { GradientLeft } from '@/app/assets/svgIcons/svg';
+import Rightgradient from '@/app/assets/images/rightside.svg';
 
 function page() {
     return (
@@ -43,6 +45,9 @@ function page() {
             {/* top gradient */}
             <div className='absolute -left-[250px] -top-[100px] w-full flex items-center justify-center'>
                 <GradientLeft />
+            </div>
+            <div className='absolute -right-[1050px] -top-[250px] w-full flex items-center justify-center'>
+            <Image src={Rightgradient} alt="right-gradient" />
             </div>
         </div>
     )

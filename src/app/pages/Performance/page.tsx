@@ -2,8 +2,10 @@
 import React from 'react'
 import TopDotLine from '@/app/components/topDotLine';
 import Lottie from 'react-lottie-player';
+import Image from 'next/image';
 import EntireState from "@/app/lottie/performance/entire state new (1).json";
 import { GradientLeft} from '@/app/assets/svgIcons/svg';
+import Rightgradient from '@/app/assets/images/rightside.svg';
 
 function page() {
   return (
@@ -94,6 +96,9 @@ function page() {
       <div className="absolute -left-[250px] -top-[300px] w-full flex items-center justify-center">
         <GradientLeft />
       </div>
+      <div className='absolute -right-[1050px] -top-[250px] w-full flex items-center justify-center'>
+            <Image src={Rightgradient} alt="right-gradient" />
+            </div>
     </div>
   )
 }
