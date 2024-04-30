@@ -1,13 +1,14 @@
+
 const Data = {
   images: [
+    "/sliderLogo/avnu.png",
+    "/sliderLogo/kakarot.png",
     "/sliderLogo/stackware.png",
+    "/sliderLogo/kasar.png",
+    "/sliderLogo/madara.png",
+    "/sliderLogo/onlydust.png",
     "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
-    "/sliderLogo/stackware.png",
+    "/sliderLogo/starknet.png",
   ],
   faq: [
     {

@@ -15,6 +15,23 @@
     background: #040201;
   }
 
+  .scrollContainer {
+    display: flex;
+    overflow-x: hidden; 
+    white-space: nowrap; 
+    animation: scroll 50s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  }
+  
+
   .footer {
     background:
       url('./assets/images/footer.svg') no-repeat center / cover;

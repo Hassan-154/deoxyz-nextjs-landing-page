@@ -1,27 +1,23 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
-import sliderLogo from '@/app/utility/data';
+import Image from "next/image";
+import Data from '@/app/utility/data'; 
 
-function LogoSlider() {
+export default function LogoList() {
+
     const [logos, setLogos] = useState<string[]>([]);
-
     useEffect(() => {
-        if (sliderLogo.images) {
-            setLogos(sliderLogo.images);
-        }
+        setLogos(Data.images || []);
     }, []);
 
-    console.log(logos);
-
     return (
-        <div className="z-10 w-full bg-[#040201] flex flex-col items-center justify-center text-center text-white overflow-hidden">
-            <div className="flex flex-col items-center justify-start gap-[48px] overflow-x-hidden">
-                <div className="">Supported by</div>
-                <div className='w-full flex flex-row gap-[150px] overflow-x-auto scrollContainer'>
+        <div className="w-full bg-[#040201] flex flex-col items-center justify-center pt-[150px] pb-[100px] overflow-hidden">
+            <div className="flex flex-col gap-14 overflow-x-hidden">
+                <h3 className='text-dullWhite text-center text-xl'>Supported by</h3>
+                <div className='flex flex-row gap-[50px] overflow-x-auto scrollContainer'>
                     {logos.map((logo, index) => (
                         <div key={index} className="max-w-[250px] h-auto">
-                            <Image src={logo} alt='w-72 h-auto' width={180} height={100} />
+                            <Image className='min-w-[200px]' src={logo} alt={`Logo ${index}`} width={250} height={150} />
                         </div>
                     ))}
                 </div>
@@ -29,5 +25,3 @@ function LogoSlider() {
         </div>
     );
 }
-
-export default LogoSlider;

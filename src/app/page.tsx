@@ -13,15 +13,16 @@ import Navbar from './components/navbar'
 function page() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <Home />
+      <SliderLogo />
       <Future />
       <Performance />
-      <Launch/>
+      <Launch />
       <FeaturesBento />
       <Discover />
       <FAQ />
-      <Footer/>
+      <Footer />
     </>
   )
 }
