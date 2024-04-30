@@ -1,11 +1,12 @@
 'use client'
 import React, { useState } from 'react';
 import TopDotLine from '@/app/components/topDotLine';
-import LaunchbackLines from '@/app/assets/images/launch-backLines.svg';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import HighLevel from '@/app/components/highLevel'
 import LowLevel from '@/app/components/lowLevel'
+import MidLevel from '@/app/components/midLevel'
 import { LaunchLowLevelGradient } from '@/app/assets/svgIcons/svg';
-import Image from 'next/image';
+
 
 function Page() {
     const [activeTab, setActiveTab] = useState<string>("Low Level");
@@ -29,9 +30,9 @@ function Page() {
                             <TabsTrigger value="Mid Level" onClick={() => setActiveTab("Mid Level")} className="z-20">Mid Level</TabsTrigger>
                             <TabsTrigger value="High Level" onClick={() => setActiveTab("High Level")} className="z-20">High Level</TabsTrigger>
                         </TabsList>
-                        <TabsContent value="Low Level" className="z-99"><LowLevel /></TabsContent>
-                        <TabsContent value="Mid Level" className="z-10">Change your password here.</TabsContent>
-                        <TabsContent value="High Level" className="z-10">Manage your security settings here.</TabsContent>
+                        <TabsContent value="Low Level" className="z-99"><LowLevel/></TabsContent>
+                        <TabsContent value="Mid Level" className="z-10"><MidLevel/></TabsContent>
+                        <TabsContent value="High Level" className="z-10"><HighLevel/></TabsContent>
                     </Tabs>
                 </div>
             </div>

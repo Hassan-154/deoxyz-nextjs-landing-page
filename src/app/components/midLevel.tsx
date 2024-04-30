@@ -15,7 +15,7 @@ function Page() {
                                 01
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h3 className='text-17 font-medium'>P2P Supported</h3>
+                                <h3 className='text-17 font-medium'>P2P Supported mid </h3>
                                 <p className='text-dullWhite text-16 pt-1'>Lorem ipsum dolor sit amet consectetur. Et suscipit cras arcu vestibulum dui vivamus hendrerit sem. </p>
                                 <table className='text-14'>
                                     <th className='w-1/5 font-medium text-dullWhite !max-h-[3px]'>Dependency</th>
@@ -43,15 +43,15 @@ function Page() {
                             <div className='flex flex-col gap-4'>
                                 <h3 className='text-17 font-medium'>P2P Supported</h3>
                                 <p className='text-dullWhite text-16 pt-1'>Lorem ipsum dolor sit amet consectetur. Et suscipit cras arcu vestibulum dui vivamus hendrerit sem. </p>
-                              <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
-                                <div className='flex justify-between  text-[40px] leading-[5px]'>
-                                   <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt=''/>
+                                <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
+                                    <div className='flex justify-between  text-[40px] leading-[5px]'>
+                                        <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt='' />
+                                    </div>
+                                    <div>
+                                        <span className='text-blue'>cd</span> <span className='text-yellow'>deoxys</span><br></br>
+                                        <span className='text-blue'>cargo</span> <span className='text-yellow'>build --release</span>
+                                    </div>
                                 </div>
-                                <div>
-                                <span className='text-blue'>cd</span> <span className='text-yellow'>deoxys</span><br></br>
-                                <span className='text-blue'>cargo</span> <span className='text-yellow'>build --release</span>
-                                </div>
-                              </div>
                             </div>
                         </div>
                         <div className='z-0 absolute left-0 top-0 w-full flex items-center justify-center overflow-hidden'>
@@ -67,15 +67,15 @@ function Page() {
                             <div className='flex flex-col gap-4'>
                                 <h3 className='text-17 font-medium'>P2P Supported</h3>
                                 <p className='text-dullWhite text-16 pt-1'>Lorem ipsum dolor sit amet consectetur. Et suscipit cras arcu vestibulum dui vivamus hendrerit sem. </p>
-                              <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
-                                <div className='flex justify-between  text-[40px] leading-[5px]'>
-                                   <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt=''/>
+                                <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
+                                    <div className='flex justify-between  text-[40px] leading-[5px]'>
+                                        <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt='' />
+                                    </div>
+                                    <div>
+                                        <span className='text-blue'>cd</span> <span className='text-yellow'>deoxys</span><br></br>
+                                        <span className='text-blue'>cargo</span> <span className='text-yellow'>build --release</span>
+                                    </div>
                                 </div>
-                                <div>
-                                <span className='text-blue'>cd</span> <span className='text-yellow'>deoxys</span><br></br>
-                                <span className='text-blue'>cargo</span> <span className='text-yellow'>build --release</span>
-                                </div>
-                              </div>
                             </div>
                         </div>
                         <div className='z-0 absolute left-0 top-0 w-full flex items-center justify-center overflow-hidden'>
@@ -93,14 +93,14 @@ function Page() {
                                 <h3 className='text-17 font-medium'>P2P Supported</h3>
                                 <h4 className='text-16 font-medium'>Single-Node Development Chain</h4>
                                 <p className='text-dullWhite text-16 pt-1'>Lorem ipsum dolor sit amet consectetur. Et suscipit cras arcu vestibulum dui vivamus hendrerit sem. </p>
-                              <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
-                                <div className='flex justify-between  text-[40px] leading-[5px]'>
-                                   <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt=''/>
+                                <div className='flex flex-col gap-8 lowLevelCardCode p-4 rounded-[15px]'>
+                                    <div className='flex justify-between  text-[40px] leading-[5px]'>
+                                        <h5 className='-mt-1'>...</h5> <Image className='h-[15px] w-[15px]' src={copy} alt='' />
+                                    </div>
+                                    <div>
+                                        <span className='text-blue'>cargo</span> <span className='text-yellow'> run --release -- --dev --sealing-manual</span>
+                                    </div>
                                 </div>
-                                <div>
-                                <span className='text-blue'>cargo</span> <span className='text-yellow'> run --release -- --dev --sealing-manual</span>
-                                </div>
-                              </div>
                             </div>
                         </div>
                         <div className='z-0 absolute left-0 top-0 w-full flex items-center justify-center overflow-hidden'>
@@ -108,7 +108,7 @@ function Page() {
                         </div>
                     </div>
 
-                
+
 
                 </div>
             </div>
