@@ -26,17 +26,17 @@ function page() {
                         />
                     </div>
                     {/* bottom guide */}
-                    <div className='text-15 flex justify-between items-center max-w-[600px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000] px-3 py-2'>
+                    <div className='text-13 sm:text-15 flex justify-between items-center max-w-[450px] sm:max-w-[600px] mx-auto font-normal -mt-6 sm:-mt-24 border-2 border-[#000] px-3 py-2'>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#2EC596] h-2.5 w-12 rounded-sm'></div>
+                            <div className='bg-[#2EC596] h-2 sm:h-2.5 w-9 sm:w-12 rounded-sm'></div>
                             <p>State Update</p>
                         </div>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#B6383C] h-2.5 w-12 rounded-sm'></div>
+                            <div className='bg-[#B6383C] h-2 sm:h-2.5 w-9 sm:w-12 rounded-sm'></div>
                             <p>Commitment</p>
                         </div>
                         <div className='flex gap-3 items-center'>
-                            <div className='bg-[#C1791D] h-2.5 w-12 rounded-sm'></div>
+                            <div className='bg-[#C1791D] h-2 sm:h-2.5 w-9 sm:w-12 rounded-sm'></div>
                             <p>Block</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function page() {
                 <GradientLeft />
             </div>
             <div className='absolute -right-[1050px] -top-[250px] w-full flex items-center justify-center'>
-            <Image src={Rightgradient} alt="right-gradient" />
+                <Image src={Rightgradient} alt="right-gradient" />
             </div>
         </div>
     )

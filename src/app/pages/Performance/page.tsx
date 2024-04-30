@@ -14,7 +14,7 @@ function page() {
         <div className='max-w-[1200px] mx-auto'>
           <div className='flex flex-col gap-5 max-w-[550px] mx-auto'>
             <TopDotLine />
-            <h1 className='text-[38px] leading-[40px] sm:text-[42px] font-medium sm:leading-[45px]'>Unveiling Deoxys Powering the Future of Starknet</h1>
+            <h1 className='text-[38px] leading-[40px] sm:text-[42px] font-medium sm:leading-[45px]'>Deoxys Performance</h1>
             <p className='text-dullWhite'>Lorem ipsum dolor sit amet consectetur. Laoreet magna fermentum ut mi bibendum euismod varius quis odio. Vitae vestibulum adipi</p>
           </div>
           {/* grid system */}
@@ -93,12 +93,12 @@ function page() {
         </div>
       </div>
       {/* top gradient */}
-      {/* <div className="absolute -left-[250px] -top-[300px] w-full flex items-center justify-center">
+      <div className="absolute -left-[250px] -top-[300px] w-full flex items-center justify-center">
         <GradientLeft />
       </div>
       <div className='absolute -right-[1050px] -top-[250px] w-full flex items-center justify-center'>
         <Image src={Rightgradient} alt="right-gradient" />
-      </div> */}
+      </div>
     </div>
   )
 }

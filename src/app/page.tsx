@@ -16,10 +16,10 @@ function page() {
       <Navbar />
       <Home />
       <SliderLogo />
+      <FeaturesBento />
       <Future />
       <Performance />
       <Launch />
-      <FeaturesBento />
       <Discover />
       <FAQ />
       <Footer />
