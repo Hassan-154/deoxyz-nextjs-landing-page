@@ -8,10 +8,12 @@ import SliderLogo from '@/app/components/logoSlider'
 import FAQ from '@/app/pages/FAQ/page'
 import Footer from '@/app/pages/Footer/page'
 import Launch from '@/app/pages/Launch/page'
+import Navbar from './components/navbar'
 
 function page() {
   return (
     <>
+    <Navbar/>
       <Home />
       <Future />
       <Performance />
