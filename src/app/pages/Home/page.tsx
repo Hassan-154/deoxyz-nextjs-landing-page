@@ -19,7 +19,7 @@ export default function Page() {
         rendererSettings={{ preserveAspectRatio: 'xMidYMid slice' }}
       />
       {/* content */}
-      <div className='z-10 flex flex-col gap-5 absolute top-[33%] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center max-w-[550px] px-3 sm:px-0'>
+      <div className='z-10 flex flex-col gap-5 absolute top-[35%] w-full left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center max-w-[550px] px-3 sm:px-0'>
         {/* dot & text */}
         <TopDotLine />
         <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px]'>Powring The <br></br> Future of StarKnet</h1>
