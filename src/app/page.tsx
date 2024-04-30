@@ -4,11 +4,10 @@ import Performance from '@/app/pages/Performance/page'
 import Future from '@/app/pages/Future/page'
 import FeaturesBento from '@/app/pages/FeaturesBento/Pege'
 import Discover from '@/app/pages/Discover/page'
-import Launch from '@/app/pages/Launch/page'
 import SliderLogo from '@/app/components/logoSlider'
 import FAQ from '@/app/pages/FAQ/page'
 import Footer from '@/app/pages/Footer/page'
-import Tabs from '@/app/pages/Launch/page'
+import Launch from '@/app/pages/Launch/page'
 
 function page() {
   return (
@@ -16,7 +15,7 @@ function page() {
       <Home />
       <Future />
       <Performance />
-      <Tabs/>
+      <Launch/>
       <FeaturesBento />
       <Discover />
       <FAQ />

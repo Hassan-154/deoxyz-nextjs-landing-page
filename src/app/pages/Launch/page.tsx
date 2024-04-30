@@ -9,7 +9,7 @@ import { LaunchLowLevelGradient } from '@/app/assets/svgIcons/svg';
 
 
 function Page() {
-    const [activeTab, setActiveTab] = useState<string>("Low Level");
+    const [activeTab, setActiveTab] = useState<string>("High Level");
 
     console.log(activeTab, 'active tab.. .')
 
@@ -25,14 +25,14 @@ function Page() {
                     </div>
                     {/* tabs */}
                     <Tabs defaultValue={activeTab} className="tabs cursor-pointer mt-14">
-                        <TabsList>
-                            <TabsTrigger value="Low Level" onClick={() => setActiveTab("Low Level")} className="z-20">Low Level</TabsTrigger>
-                            <TabsTrigger value="Mid Level" onClick={() => setActiveTab("Mid Level")} className="z-20">Mid Level</TabsTrigger>
-                            <TabsTrigger value="High Level" onClick={() => setActiveTab("High Level")} className="z-20">High Level</TabsTrigger>
+                        <TabsList className='!bg-[#1e1e1e] !py-2.5 !h-12 !text-white'>
+                            <TabsTrigger value="Low Level" onClick={() => setActiveTab("Low Level")} className="z-20 h-10 w-28">Low Level</TabsTrigger>
+                            <TabsTrigger value="Mid Level" onClick={() => setActiveTab("Mid Level")} className="z-20 h-10 w-28">Mid Level</TabsTrigger>
+                            <TabsTrigger value="High Level" onClick={() => setActiveTab("High Level")} className="z-20 h-10 w-28">High Level</TabsTrigger>
                         </TabsList>
-                        <TabsContent value="Low Level" className="z-99"><LowLevel/></TabsContent>
-                        <TabsContent value="Mid Level" className="z-10"><MidLevel/></TabsContent>
-                        <TabsContent value="High Level" className="z-10"><HighLevel/></TabsContent>
+                        <TabsContent value="Low Level" className="z-99"><LowLevel /></TabsContent>
+                        <TabsContent value="Mid Level" className="z-10"><MidLevel /></TabsContent>
+                        <TabsContent value="High Level" className="z-10"><HighLevel /></TabsContent>
                     </Tabs>
                 </div>
             </div>

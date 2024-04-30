@@ -25,8 +25,8 @@ export default function Page() {
         <h1 className='text-[40px] leading-[44px] font-semibold sm:text-[60px] sm:leading-[65px]'>Powring The <br></br> Future of StarKnet</h1>
         <p className='text-dullWhite text-16'>Lorem ipsum dolor sit amet consectetur. Laoreet magna fermentum ut mi bibendum euismod varius quis odio. Vitae vestibulum adipi</p>
         <div className='flex gap-4 justify-center'>
-          <Button className='bg-[#B10000] bg-gradient-to-b from-white/30 to-[#1B1A1A]/0' text='Get Started' />
-          <Button className='bg-offWhite text-black' text='Learn More' />
+          <Button className='bg-[#B10000] bg-gradient-to-b from-white/30 to-[#1B1A1A]/0 px-6' text='Get Started' />
+          <Button className='bg-offWhite text-black px-6' text='Learn More' />
         </div>
       </div>
       {/* top gradient */}
